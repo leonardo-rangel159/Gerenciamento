@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(202, 203, 206);
+}
+nav{
+  margin-bottom: 3%;
+}
+  /*Para centralizar o menu*/
+#primeiro{
+  margin-left: auto;
+  }
+#ultimo{
+  margin-right: auto;
+}
+/*Fim de cetralizar menu*/
+
+/*Para colocar o menu um embaixo do outro depois de um certa altura*/
+@media only screen and (min-width: 0px) and (max-width: 389px){
+  .navbar-brand{
+    margin: auto;
+  }
+}
+/*Fim de colocar o menu um embaixo do outro*/
